@@ -22,4 +22,4 @@ Open `index.html` in a modern browser. Click **New Book** to add entries and man
 ---
 
 - Built as part of [The Odin Project](https://www.theodinproject.com/).
-- By [Suguru](github.com/L1vStr34m)
+- By [Suguru] (https://www.github.com/L1vStr34m)
