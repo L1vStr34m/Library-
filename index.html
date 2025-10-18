@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Library App</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Library App</h1>
+  <button id="new-book-btn">New Book</button>
+
+  <dialog id="new-book-dialog">
+    <form id="new-book-form">
+      <h2>Add a New Book</h2>
+      <label>
+        Title
+        <input type="text" name="title" required />
+      </label>
+      <label>
+        Author
+        <input type="text" name="author" required />
+      </label>
+      <label>
+        Number of Pages
+        <input type="number" name="pages" min="1" required />
+      </label>
+      <label>
+        <input type="checkbox" name="read" />
+        Have you read it?
+      </label>
+      <div class="form-actions">
+        <button type="submit">Add Book</button>
+        <button type="button" id="cancel-btn">Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="books-container"></div>
+
+  <script src="./js/library.js"></script>
+</body>
+</html>
